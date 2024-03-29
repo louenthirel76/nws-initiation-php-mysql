@@ -9,7 +9,7 @@
  */
 $meta_site_name = "NWS";
 $meta_site_description = "Initiation au développement web avec PHP et MySQL";
-$meta_author = "Raphael Sanchez";
+$meta_author = "Louen Thirel et Thibault Martins";
 $meta_robot = "index, follow";
 ?> <!-- On oublie pas de fermer ici la balise PHP pour commencer à écrire du HTML -->
 
@@ -44,6 +44,9 @@ $meta_robot = "index, follow";
   <nav class="container">
     <a href="/">
       <img src="/assets/images/logo.svg" width="180" height="70" alt="Logo NWS">
+    </a>
+    <a href="/inscription">
+      Inscription
     </a>
     <button class="contrast outline" data-toggle="theme" aria-label="toggle theme mode">
       <i data-feather="sun"></i>
